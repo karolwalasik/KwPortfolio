@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#particles-js {
+	background-color: rgb(108, 189, 240);
+	height: 100vh;
+}
+
+.container {
+	height: 100vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.left-side {
+	flex-basis: 46%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.right-side {
+	flex-basis: 46%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	text-transform: uppercase;
+	color: white;
+	flex-direction: column;
+}
+
+img {
+	width: 100%;
+}
+
+.nav {
+	flex-basis: 8%;
+	height: 100%;
+	background-color: rgba(248, 191, 0, 0.78);
+	position: relative;
+}
+
+h2 {
+	font-weight: 300;
+	margin-top: 0px;
+}
+
+ul {
+	height: 50%;
+	width: 100%;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	position: absolute;
+	transform: translateY(50%);
+	text-align: center;
+	padding: 0;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+ul li a i {
+	font-size: 30px;
+	color: white;
+}
+
+ul li a span {
+	display: none;
+	color: white;
+	padding: 5px;
+	transition: all 1.4s;
+}
+
+ul li a:hover span {
+	display: block;
+	transition: all 1.4s;
+}
