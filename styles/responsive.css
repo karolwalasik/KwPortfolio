@@ -3,17 +3,23 @@
 		position: fixed;
 		top: 0;
 		left: 0;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
 		flex-direction: row;
 		height: 80px;
 		width: 100%;
 	}
+
 	nav ul {
 		margin-top: 0px;
 	}
+
 	nav ul li {
 		margin-right: 5px;
 		padding: 4px;
 	}
+
 	nav ul li a span {
 		font-size: 14px;
 		opacity: 1;
@@ -21,90 +27,121 @@
 		width: 100%;
 		font-weight: 300;
 	}
+
 	nav ul li a i {
 		font-size: 24px;
 	}
+
 	.left-side {
 		position: absolute;
 		top: 0;
 		height: 100%;
 	}
+
 	.left-side img {
 		width: 100%;
 		margin: 0 auto;
 	}
+
 	.right-side {
+		-ms-flex-preferred-size: 100%;
 		flex-basis: 100%;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
 		justify-content: flex-end;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
 		align-items: center;
 	}
+
 	.right-side h1,
 	.right-side h2 {
 		margin-bottom: 50px;
 	}
+
 	.right-side h1 {
 		font-size: 1.5rem;
 	}
+
 	.right-side h2 {
 		font-size: 1.2rem;
 	}
+
 	#skills h2,
 	#about h2,
 	#portfolio h2 {
 		font-size: 1.5rem;
 		padding: 10px;
 	}
+
 	.about_left {
+		-ms-flex-preferred-size: 100%;
 		flex-basis: 100%;
 		border-bottom: 3px dashed white;
 		border-right: none;
 	}
+
 	.about_left img {
 		width: 100%;
 	}
+
 	.about_right {
+		-ms-flex-preferred-size: 100%;
 		flex-basis: 100%;
 		padding: 10px;
 	}
+
 	#about p {
 		margin: 0 auto;
 		font-size: 1rem;
 		text-align: center;
 	}
+
 	#skills h3 {
 		font-size: 1.2rem;
 	}
+
 	.skills_container,
 	.about_container,
 	.portfolio_container,
 	.contact_container {
 		width: 80%;
 	}
+
 	.logos_container img {
 		width: 80px;
 		height: 100%;
 		padding: 10px;
 		margin: 0 10px;
 	}
+
 	.port_img {
 		width: 360px;
 		height: 360px;
 	}
+
 	.inner2 {
 		margin: 0;
 		font-size: 0.7rem;
 		padding: 0;
+		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		overflow: hidden;
 	}
+
 	.contact_container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
+
 	.contact_left_side {
 		padding-bottom: 50px;
 		text-align: center;
 		font-size: 1rem;
 	}
+
 	footer p {
 		font-size: 0.7rem;
 		font-weight: 300;
@@ -115,25 +152,31 @@
 	.right-side h1 {
 		font-size: 1.3rem;
 	}
+
 	.right-side h2 {
 		font-size: 1rem;
 	}
+
 	#skills h2,
 	#about h2,
 	#portfolio h2 {
 		font-size: 1.3rem;
 		padding: 10px;
 	}
+
 	#skills h3 {
 		font-size: 1rem;
 	}
+
 	.port_img {
 		width: 250px;
 		height: 250px;
 	}
+
 	.contact_left_side {
 		font-size: 0.8rem;
 	}
+
 	footer p {
 		font-size: 0.7rem;
 		font-weight: 300;
@@ -144,15 +187,21 @@
 	.left-side {
 		position: relative;
 	}
+
 	.right-side {
+		-ms-flex-preferred-size: 50%;
 		flex-basis: 50%;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
 		justify-content: center;
 		margin-top: 30px;
 	}
+
 	.port_img {
 		width: 400px;
 		height: 400px;
 	}
+
 	.inner2 {
 		font-size: 1rem;
 	}
