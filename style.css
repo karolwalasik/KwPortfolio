@@ -152,6 +152,15 @@ ul li a:hover span {
 	font-weight: 300;
 }
 
+#about a{
+	text-decoration: none;
+	color: #0bac8b;
+}
+
+#about a:hover{
+	color: #7c7c7c;
+}
+
 #skills {
 	background-image: url(img/stars-min.jpg);
 	background-color: white;
