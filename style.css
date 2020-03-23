@@ -226,7 +226,7 @@ ul li a:hover span {
 }
 
 .portfolio_container {
-	margin-bottom: 80px;
+	padding-bottom: 80px;
 }
 
 .port_img_container {
@@ -255,12 +255,12 @@ ul li a:hover span {
 }
 
 #p_img1 {
-	background-image: url(img/slasher.jpg);
+	background-image: url(img/printbox.png);
 	background-size: cover;
 }
 
 #p_img2 {
-	background-image: url(img/wolfies.png);
+	background-image: url(img/pp.png);
 	background-size: cover;
 }
 
@@ -271,7 +271,7 @@ ul li a:hover span {
 }
 
 #p_img4 {
-	background-image: url(img/bs4.png);
+	background-image: url(img/cherrypix.png);
 	background-size: cover;
 
 }
